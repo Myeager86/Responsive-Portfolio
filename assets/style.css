@@ -58,6 +58,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+    z-index: 3;
     
 }
 
@@ -354,3 +355,138 @@ input[type=submit]:hover {
     padding: 15px 73px 15px 74px;
     color: white;
 }
+
+/* Media queries */
+
+@media screen and (max-width: 1115px) {
+    /* The body's bg color will be #333 */
+    body {
+      background-color: #333;
+    }
+    .aboutbox {
+        left: 100px;
+        margin-top: 10px;
+    }
+    .contactbox {
+        left: 100px;
+    }
+
+    .contactbox2 {
+        left: 100px;
+        margin-bottom: 10px;
+    }
+
+    .connectbox {
+        margin-left: 300px;
+    }
+
+    .container2 {
+        left: 100px;
+    }
+
+    h1 {
+        margin-right: 100px;
+    }
+
+  }
+
+@media screen and (max-width: 960px) {
+    /* The body's bg color will be #333 */
+    body {
+      background-color: #333;
+    }
+    .aboutbox {
+        left: 100px;
+        margin-top: 10px;
+    }
+    .contactbox {
+        left: 100px;
+    }
+
+    .contactbox2 {
+        left: 100px;
+        margin-bottom: 10px;
+    }
+
+    .connectbox {
+        margin-left: 300px;
+        margin-top: 50px;
+    }
+
+    .container2 {
+        left: 100px;
+    }
+
+    h1 {
+        margin-right: 100px;
+    }
+  }
+@media screen and (max-width: 768px) {
+    /* The body's bg color will be #333 */
+    body {
+      background-color: #333;
+    }
+    .aboutbox {
+        left: 50px;
+    }
+
+    .contactbox {
+        left: 50px;
+    }
+  
+    .connectbox {
+        margin-left: 250px;
+    }
+
+    .contactbox2 {
+        left: 50px;
+        margin-bottom: 10px;
+    }
+
+    .container2 {
+        left: 50px;
+    }
+
+    h1 {
+        margin-right: 50px;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    /* The body's bg color will be #333 */
+    body {
+      background-color: #333;
+    }
+
+    header {
+        position: static;
+    }
+
+    .aboutbox {
+        left: 10px;
+        width: 100%;
+    }
+
+    .contactbox {
+        left: 10px;
+        width: 100%;
+    }
+
+    .connectbox {
+        margin-left: 50px;
+    }
+
+    .contactbox2 {
+        left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .container2 {
+        left: 10px;
+    }
+
+    h1 {
+        margin-right: 5px;
+        margin-left: 10px;
+    }
+  }
