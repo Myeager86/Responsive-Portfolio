@@ -356,6 +356,15 @@ input[type=submit]:hover {
     color: white;
 }
 
+.projectImg {
+    height: 150px;
+    width: 225px;
+}
+
+#linkWhite {
+    color: white;
+}
+
 /* Media queries */
 
 @media screen and (max-width: 1115px) {
